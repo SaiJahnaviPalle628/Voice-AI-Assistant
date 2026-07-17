@@ -1,0 +1,1055 @@
+2026-07-17 12:40:01 | INFO     | test | Logger is working!
+2026-07-17 12:40:58 | INFO     | speech | Loading Whisper model 'base'...
+2026-07-17 12:41:00 | INFO     | speech | Whisper model loaded.
+2026-07-17 12:41:00 | INFO     | speech | Recording for 5s... speak now.
+2026-07-17 12:41:06 | INFO     | speech | Recording finished.
+2026-07-17 12:41:06 | INFO     | speech | record_audio took 5.55s
+2026-07-17 12:41:06 | WARNING  | speech | Transcription returned empty text.
+2026-07-17 12:41:06 | INFO     | speech | transcribe took 0.54s
+2026-07-17 12:41:53 | INFO     | speech | Loading Whisper model 'base'...
+2026-07-17 12:41:54 | INFO     | speech | Whisper model loaded.
+2026-07-17 12:41:54 | INFO     | speech | Recording for 5s... speak now.
+2026-07-17 12:41:59 | INFO     | speech | Recording finished.
+2026-07-17 12:41:59 | INFO     | speech | record_audio took 5.49s
+2026-07-17 12:42:00 | INFO     | speech | Transcription: 'I'm in Bali. Yeah, I am. Let's go.' (lang confidence: 1.00)
+2026-07-17 12:42:00 | INFO     | speech | transcribe took 0.43s
+2026-07-17 12:44:34 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'Hello, who are you?'
+2026-07-17 12:44:40 | INFO     | llm | Ollama response: 'I'm an AI designed to help answer questions, provide information, and have conversations with people like you. I don't have a personal name, but you can think of me as your friendly assistant, here to assist with anything you need! What's on your mind today?'
+2026-07-17 12:44:40 | INFO     | llm | get_response took 5.88s
+2026-07-17 12:46:45 | INFO     | tts | Loading Piper voice from C:\AI-Assistant\voices\en_US-lessac-medium.onnx...
+2026-07-17 12:46:47 | INFO     | tts | Piper voice loaded.
+2026-07-17 12:46:49 | INFO     | tts | synthesize took 2.42s
+2026-07-17 12:46:53 | INFO     | tts | play_audio took 3.54s
+2026-07-17 12:50:41 | WARNING  | fallback | slow_func timed out after 8s.
+2026-07-17 12:50:48 | WARNING  | fallback | LLM timed out, using slow-filler fallback.
+2026-07-17 12:50:50 | INFO     | fallback | No speech detected, using fallback phrase.
+2026-07-17 12:53:19 | INFO     | speech | Loading Whisper model 'base'...
+2026-07-17 12:53:20 | INFO     | speech | Whisper model loaded.
+2026-07-17 12:53:20 | INFO     | tts | Loading Piper voice from C:\AI-Assistant\voices\en_US-lessac-medium.onnx...
+2026-07-17 12:53:21 | INFO     | tts | Piper voice loaded.
+2026-07-17 12:53:21 | INFO     | assistant | Assistant initialized.
+2026-07-17 12:53:21 | INFO     | speech | Recording for 5s... speak now.
+2026-07-17 12:53:27 | INFO     | speech | Recording finished.
+2026-07-17 12:53:27 | INFO     | speech | record_audio took 5.42s
+2026-07-17 12:53:27 | INFO     | speech | Transcription: 'Hello, what's your name?' (lang confidence: 1.00)
+2026-07-17 12:53:27 | INFO     | speech | transcribe took 0.41s
+2026-07-17 12:53:27 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'Hello, what's your name?'
+2026-07-17 12:53:31 | INFO     | llm | Ollama response: 'I'm not assigned a personal name, but you can think of me as "Assistant" or call me whatever feels most natural to you! What's on your mind today? Need help with something or just want to chat?'
+2026-07-17 12:53:31 | INFO     | llm | get_response took 3.61s
+2026-07-17 12:53:31 | INFO     | tts | synthesize took 0.38s
+2026-07-17 12:53:42 | INFO     | tts | play_audio took 10.61s
+2026-07-17 12:53:42 | INFO     | speech | Recording for 5s... speak now.
+2026-07-17 12:53:48 | INFO     | speech | Recording finished.
+2026-07-17 12:53:48 | INFO     | speech | record_audio took 5.80s
+2026-07-17 12:53:48 | INFO     | speech | Transcription: 'Just want to chat. I want another weather of India.' (lang confidence: 1.00)
+2026-07-17 12:53:48 | INFO     | speech | transcribe took 0.52s
+2026-07-17 12:53:48 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'Just want to chat. I want another weather of India.'
+2026-07-17 12:53:50 | INFO     | llm | Ollama response: 'India's got some amazing weather patterns. You've got the tropical monsoon season in the south, with heavy rainfall and high humidity. The north gets quite cool during winters, especially after December, while the Himalayas can be chilly even in summer.
+
+In the middle, you have a mix of warm and mild climates, like Delhi and Rajasthan. And let's not forget about Kerala's tropical forests, where it stays pretty warm and humid all year round.
+
+What part of India are you most interested in?'
+2026-07-17 12:53:50 | INFO     | llm | get_response took 1.95s
+2026-07-17 12:53:51 | INFO     | tts | synthesize took 0.78s
+2026-07-17 12:54:17 | INFO     | tts | play_audio took 26.42s
+2026-07-17 12:54:17 | INFO     | speech | Recording for 5s... speak now.
+2026-07-17 12:54:23 | INFO     | speech | Recording finished.
+2026-07-17 12:54:23 | INFO     | speech | record_audio took 6.02s
+2026-07-17 12:54:24 | INFO     | speech | Transcription: 'Well Lord Tamil Nadu' (lang confidence: 1.00)
+2026-07-17 12:54:24 | INFO     | speech | transcribe took 0.45s
+2026-07-17 12:54:24 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'Well Lord Tamil Nadu'
+2026-07-17 12:54:25 | INFO     | llm | Ollama response: 'A classic Indian phrase! It roughly translates to "Great is the land of Tamil Nadu." Is there something specific you'd like to know about this beautiful state in southern India?'
+2026-07-17 12:54:25 | INFO     | llm | get_response took 1.19s
+2026-07-17 12:54:25 | INFO     | tts | synthesize took 0.27s
+2026-07-17 12:54:35 | INFO     | tts | play_audio took 9.79s
+2026-07-17 12:54:35 | INFO     | speech | Recording for 5s... speak now.
+2026-07-17 12:54:41 | INFO     | speech | Recording finished.
+2026-07-17 12:54:41 | INFO     | speech | record_audio took 5.55s
+2026-07-17 12:54:41 | INFO     | speech | Transcription: 'I want to know about the weather in Valor Tamil Nadu.' (lang confidence: 1.00)
+2026-07-17 12:54:41 | INFO     | speech | transcribe took 0.45s
+2026-07-17 12:54:41 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'I want to know about the weather in Valor Tamil Nadu.'
+2026-07-17 12:54:43 | INFO     | llm | Ollama response: 'Valorn is actually in Tamil Nadu, India. The weather there varies depending on the time of year.
+
+Generally, Valorn has a tropical climate with three main seasons: summer, monsoon, and winter.
+
+Summer's usually hot and humid from April to June.
+The monsoon season brings heavy rainfall from July to September.
+Winter's mild from December to February, but can get cool at night.
+
+For the most up-to-date forecast, I recommend checking a reliable weather website or app. Would you like me to find one for you?'
+2026-07-17 12:54:43 | INFO     | llm | get_response took 1.93s
+2026-07-17 12:54:44 | INFO     | tts | synthesize took 0.82s
+2026-07-17 12:55:13 | INFO     | tts | play_audio took 28.93s
+2026-07-17 12:55:13 | INFO     | speech | Recording for 5s... speak now.
+2026-07-17 12:55:18 | INFO     | speech | Recording finished.
+2026-07-17 12:55:18 | INFO     | speech | record_audio took 5.53s
+2026-07-17 12:55:19 | INFO     | speech | Transcription: 'No it's fine, I was talking about Velur, Velur, VIT Velur' (lang confidence: 1.00)
+2026-07-17 12:55:19 | INFO     | speech | transcribe took 0.47s
+2026-07-17 12:55:19 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'No it's fine, I was talking about Velur, Velur, VIT Velur'
+2026-07-17 12:55:20 | INFO     | llm | Ollama response: 'So you're referring to the Velur Institute of Technology in Tamil Nadu, India. What would you like to know about VIT Velur? Are you a student or looking for information on their courses or admission process?'
+2026-07-17 12:55:20 | INFO     | llm | get_response took 1.33s
+2026-07-17 12:55:20 | INFO     | tts | synthesize took 0.35s
+2026-07-17 12:55:32 | INFO     | tts | play_audio took 11.88s
+2026-07-17 12:55:32 | INFO     | speech | Recording for 5s... speak now.
+2026-07-17 12:55:38 | INFO     | speech | Recording finished.
+2026-07-17 12:55:38 | INFO     | speech | record_audio took 5.51s
+2026-07-17 12:55:38 | INFO     | speech | Transcription: 'I am a student at VIT Vailor, I just don't want to know.' (lang confidence: 1.00)
+2026-07-17 12:55:38 | INFO     | speech | transcribe took 0.46s
+2026-07-17 12:55:38 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'I am a student at VIT Vailor, I just don't want to know.'
+2026-07-17 12:55:40 | INFO     | llm | Ollama response: 'It sounds like you're feeling overwhelmed or stuck with your studies right now. Would you like to talk about what's going on and see if we can brainstorm some ways to make things more manageable? Maybe we can break down your tasks into smaller chunks or explore any resources available at VIT Vailor that could help.'
+2026-07-17 12:55:40 | INFO     | llm | get_response took 1.44s
+2026-07-17 12:55:40 | INFO     | tts | synthesize took 0.48s
+2026-07-17 12:55:57 | INFO     | tts | play_audio took 17.35s
+2026-07-17 12:55:57 | INFO     | speech | Recording for 5s... speak now.
+2026-07-17 12:56:03 | INFO     | speech | Recording finished.
+2026-07-17 12:56:03 | INFO     | speech | record_audio took 5.91s
+2026-07-17 12:56:04 | INFO     | speech | Transcription: 'Thank you so much.' (lang confidence: 1.00)
+2026-07-17 12:56:04 | INFO     | speech | transcribe took 0.42s
+2026-07-17 12:56:04 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'Thank you so much.'
+2026-07-17 12:56:05 | INFO     | llm | Ollama response: 'It's my pleasure to help. Is there something specific I can assist you with today?'
+2026-07-17 12:56:05 | INFO     | llm | get_response took 0.92s
+2026-07-17 12:56:05 | INFO     | tts | synthesize took 0.14s
+2026-07-17 12:56:09 | INFO     | tts | play_audio took 4.60s
+2026-07-17 12:56:09 | INFO     | speech | Recording for 5s... speak now.
+2026-07-17 12:56:15 | INFO     | speech | Recording finished.
+2026-07-17 12:56:15 | INFO     | speech | record_audio took 5.89s
+2026-07-17 12:56:16 | INFO     | speech | Transcription: 'Nothing really.' (lang confidence: 1.00)
+2026-07-17 12:56:16 | INFO     | speech | transcribe took 0.39s
+2026-07-17 12:56:16 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'Nothing really.'
+2026-07-17 12:56:17 | INFO     | llm | Ollama response: 'Just looking for something to do then? We could play a game, have a chat about your day, or I could suggest some fun activities if you're feeling stuck. What sounds good to you?'
+2026-07-17 12:56:17 | INFO     | llm | get_response took 1.23s
+2026-07-17 12:56:17 | INFO     | tts | synthesize took 0.27s
+2026-07-17 12:56:27 | INFO     | tts | play_audio took 9.85s
+2026-07-17 12:56:27 | INFO     | speech | Recording for 5s... speak now.
+2026-07-17 12:56:33 | INFO     | speech | Recording finished.
+2026-07-17 12:56:33 | INFO     | speech | record_audio took 5.85s
+2026-07-17 12:56:33 | INFO     | speech | Transcription: 'I don't want to do anything by.' (lang confidence: 1.00)
+2026-07-17 12:56:33 | INFO     | speech | transcribe took 0.41s
+2026-07-17 12:56:33 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'I don't want to do anything by.'
+2026-07-17 12:56:35 | INFO     | llm | Ollama response: 'It can be tough to get started when you're feeling relaxed at home. Why not try making something simple like a cup of tea or toast? Sometimes getting into the kitchen can help you feel more energized and focused. Or, if you're feeling really unmotivated, we could just chat about your day instead! What's been going on that's got you feeling laid back today?'
+2026-07-17 12:56:35 | INFO     | llm | get_response took 1.61s
+2026-07-17 12:56:36 | INFO     | tts | synthesize took 0.57s
+2026-07-17 12:56:55 | INFO     | tts | play_audio took 19.09s
+2026-07-17 12:56:55 | INFO     | speech | Recording for 5s... speak now.
+2026-07-17 12:57:00 | INFO     | speech | Recording finished.
+2026-07-17 12:57:00 | INFO     | speech | record_audio took 5.89s
+2026-07-17 12:57:01 | WARNING  | speech | Transcription returned empty text.
+2026-07-17 12:57:01 | INFO     | speech | transcribe took 0.41s
+2026-07-17 12:57:01 | INFO     | fallback | No speech detected, using fallback phrase.
+2026-07-17 12:57:01 | INFO     | tts | synthesize took 0.11s
+2026-07-17 12:57:05 | INFO     | tts | play_audio took 3.66s
+2026-07-17 12:57:05 | INFO     | speech | Recording for 5s... speak now.
+2026-07-17 12:57:10 | INFO     | speech | Recording finished.
+2026-07-17 12:57:10 | INFO     | speech | record_audio took 5.46s
+2026-07-17 12:57:11 | INFO     | speech | Transcription: 'Stop it. I don't want to talk anymore.' (lang confidence: 1.00)
+2026-07-17 12:57:11 | INFO     | speech | transcribe took 0.41s
+2026-07-17 12:57:11 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'Stop it. I don't want to talk anymore.'
+2026-07-17 12:57:12 | INFO     | llm | Ollama response: 'It's okay to take a break or step away from the conversation whenever you feel like it. Would you like some help finding something else to do while you're not feeling chatty, though? Maybe we could look up a new TV show or a recipe together?'
+2026-07-17 12:57:12 | INFO     | llm | get_response took 1.33s
+2026-07-17 12:57:12 | INFO     | tts | synthesize took 0.37s
+2026-07-17 12:57:25 | INFO     | tts | play_audio took 12.85s
+2026-07-17 12:57:25 | INFO     | speech | Recording for 5s... speak now.
+2026-07-17 12:57:31 | INFO     | speech | Recording finished.
+2026-07-17 12:57:31 | INFO     | speech | record_audio took 5.55s
+2026-07-17 12:57:31 | INFO     | speech | Transcription: 'Goodbye.' (lang confidence: 1.00)
+2026-07-17 12:57:31 | INFO     | speech | transcribe took 0.39s
+2026-07-17 12:57:31 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'Goodbye.'
+2026-07-17 12:57:32 | INFO     | llm | Ollama response: 'Have a great day! It was nice chatting with you, even if it was just goodbye. Feel free to come back anytime for help or just to say hi. Bye for now!'
+2026-07-17 12:57:32 | INFO     | llm | get_response took 1.25s
+2026-07-17 12:57:33 | INFO     | tts | synthesize took 0.26s
+2026-07-17 12:57:42 | INFO     | tts | play_audio took 9.46s
+2026-07-17 12:57:42 | INFO     | speech | Recording for 5s... speak now.
+2026-07-17 12:57:48 | INFO     | assistant | Assistant stopped via KeyboardInterrupt.
+2026-07-17 12:59:54 | INFO     | speech | Loading Whisper model 'base'...
+2026-07-17 12:59:55 | INFO     | speech | Whisper model loaded.
+2026-07-17 12:59:55 | INFO     | tts | Loading Piper voice from C:\AI-Assistant\voices\en_US-lessac-medium.onnx...
+2026-07-17 12:59:57 | INFO     | tts | Piper voice loaded.
+2026-07-17 12:59:57 | INFO     | assistant | Assistant initialized.
+2026-07-17 12:59:57 | INFO     | speech | Recording for 5s... speak now.
+2026-07-17 13:00:02 | INFO     | speech | Recording finished.
+2026-07-17 13:00:02 | INFO     | speech | record_audio took 5.50s
+2026-07-17 13:00:03 | INFO     | speech | Transcription: 'Hi Dad, how are you?' (lang confidence: 1.00)
+2026-07-17 13:00:03 | INFO     | speech | transcribe took 0.43s
+2026-07-17 13:00:03 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'Hi Dad, how are you?'
+2026-07-17 13:00:04 | INFO     | llm | Ollama response: 'I'm doing well, thanks for asking! Just here to help with any questions or tasks you need assistance with. How about you, how's your day going so far?'
+2026-07-17 13:00:04 | INFO     | llm | get_response took 1.22s
+2026-07-17 13:00:04 | INFO     | tts | synthesize took 0.34s
+2026-07-17 13:00:14 | INFO     | tts | play_audio took 9.16s
+2026-07-17 13:00:14 | INFO     | speech | Recording for 5s... speak now.
+2026-07-17 13:00:19 | INFO     | speech | Recording finished.
+2026-07-17 13:00:19 | INFO     | speech | record_audio took 5.91s
+2026-07-17 13:00:20 | INFO     | speech | Transcription: 'My day is good. Can you tell me 66 plus 33?' (lang confidence: 1.00)
+2026-07-17 13:00:20 | INFO     | speech | transcribe took 0.49s
+2026-07-17 13:00:20 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'My day is good. Can you tell me 66 plus 33?'
+2026-07-17 13:00:21 | INFO     | llm | Ollama response: 'That's great to hear that your day is going well! Now, let's do the math... sixty-six plus thirty-three equals ninety-nine. How's everything else going today?'
+2026-07-17 13:00:21 | INFO     | llm | get_response took 1.26s
+2026-07-17 13:00:21 | INFO     | tts | synthesize took 0.26s
+2026-07-17 13:00:30 | INFO     | tts | play_audio took 8.95s
+2026-07-17 13:00:30 | INFO     | speech | Recording for 5s... speak now.
+2026-07-17 13:00:36 | INFO     | speech | Recording finished.
+2026-07-17 13:00:36 | INFO     | speech | record_audio took 5.56s
+2026-07-17 13:00:36 | INFO     | speech | Transcription: 'It's fine. Thank you. Goodbye.' (lang confidence: 1.00)
+2026-07-17 13:00:36 | INFO     | speech | transcribe took 0.45s
+2026-07-17 13:00:36 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'It's fine. Thank you. Goodbye.'
+2026-07-17 13:00:37 | INFO     | llm | Ollama response: 'Wait, not so fast! Before you go, is there anything else I can help you with today?'
+2026-07-17 13:00:37 | INFO     | llm | get_response took 0.98s
+2026-07-17 13:00:38 | INFO     | tts | synthesize took 0.16s
+2026-07-17 13:00:43 | INFO     | tts | play_audio took 5.53s
+2026-07-17 13:00:43 | INFO     | assistant | Assistant stopped via exit phrase.
+2026-07-17 13:03:34 | INFO     | speech | Loading Whisper model 'base'...
+2026-07-17 13:03:35 | INFO     | speech | Whisper model loaded.
+2026-07-17 13:03:35 | INFO     | tts | Loading Piper voice from C:\AI-Assistant\voices\en_US-lessac-medium.onnx...
+2026-07-17 13:03:36 | INFO     | tts | Piper voice loaded.
+2026-07-17 13:03:37 | INFO     | assistant | Assistant initialized.
+2026-07-17 13:03:37 | INFO     | speech | Recording for 5s... speak now.
+2026-07-17 13:03:42 | INFO     | speech | Recording finished.
+2026-07-17 13:03:42 | INFO     | speech | record_audio took 5.62s
+2026-07-17 13:03:43 | INFO     | speech | Transcription: 'Hello, how are you doing?' (lang confidence: 1.00)
+2026-07-17 13:03:43 | INFO     | speech | transcribe took 0.48s
+2026-07-17 13:04:32 | INFO     | speech | Loading Whisper model 'base'...
+2026-07-17 13:04:33 | INFO     | speech | Whisper model loaded.
+2026-07-17 13:04:33 | INFO     | tts | Loading Piper voice from C:\AI-Assistant\voices\en_US-lessac-medium.onnx...
+2026-07-17 13:04:34 | INFO     | tts | Piper voice loaded.
+2026-07-17 13:04:35 | INFO     | assistant | Assistant initialized.
+2026-07-17 13:04:35 | INFO     | speech | Recording for 5s... speak now.
+2026-07-17 13:04:40 | INFO     | speech | Recording finished.
+2026-07-17 13:04:40 | INFO     | speech | record_audio took 5.60s
+2026-07-17 13:04:41 | INFO     | speech | Transcription: 'Hi, how are you doing?' (lang confidence: 1.00)
+2026-07-17 13:04:41 | INFO     | speech | transcribe took 0.47s
+2026-07-17 13:04:41 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'Hi, how are you doing?'
+2026-07-17 13:04:42 | INFO     | llm | Ollama response: 'I'm doing great, thanks for asking! Ready to help with any questions or topics you'd like to chat about. How's your day going so far?'
+2026-07-17 13:04:42 | INFO     | llm | get_response took 1.05s
+2026-07-17 13:04:42 | INFO     | tts | synthesize took 0.25s
+2026-07-17 13:04:50 | INFO     | tts | play_audio took 7.53s
+2026-07-17 13:04:50 | INFO     | speech | Recording for 5s... speak now.
+2026-07-17 13:04:56 | INFO     | speech | Recording finished.
+2026-07-17 13:04:56 | INFO     | speech | record_audio took 5.98s
+2026-07-17 13:04:56 | INFO     | speech | Transcription: 'I want to ask you, what is the definition of mitochondria?' (lang confidence: 1.00)
+2026-07-17 13:04:56 | INFO     | speech | transcribe took 0.54s
+2026-07-17 13:04:56 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'I want to ask you, what is the definition of mitochondria?'
+2026-07-17 13:04:57 | INFO     | llm | Ollama response: 'The mitochondria is like the power plant inside our cells. It's a tiny organelle that helps turn food into energy for our bodies, producing a special stuff called ATP that makes everything run smoothly. Without them, we wouldn't be alive!'
+2026-07-17 13:04:57 | INFO     | llm | get_response took 1.28s
+2026-07-17 13:04:58 | INFO     | tts | synthesize took 0.39s
+2026-07-17 13:05:12 | INFO     | tts | play_audio took 13.88s
+2026-07-17 13:05:12 | INFO     | speech | Recording for 5s... speak now.
+2026-07-17 13:05:17 | INFO     | speech | Recording finished.
+2026-07-17 13:05:17 | INFO     | speech | record_audio took 5.58s
+2026-07-17 13:05:18 | INFO     | speech | Transcription: 'Okay, thank you. Goodbye.' (lang confidence: 1.00)
+2026-07-17 13:05:18 | INFO     | speech | transcribe took 0.50s
+2026-07-17 13:05:18 | INFO     | tts | synthesize took 0.08s
+2026-07-17 13:05:20 | INFO     | tts | play_audio took 2.54s
+2026-07-17 13:05:20 | INFO     | assistant | Assistant stopped via exit phrase.
+2026-07-17 13:09:51 | INFO     | speech | Loading Whisper model 'base'...
+2026-07-17 13:09:52 | INFO     | speech | Whisper model loaded.
+2026-07-17 13:11:00 | INFO     | speech | Loading Whisper model 'base'...
+2026-07-17 13:11:01 | INFO     | speech | Whisper model loaded.
+2026-07-17 13:11:01 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 13:11:06 | INFO     | speech | Silence detected, stopping after 5.0s.
+2026-07-17 13:11:06 | INFO     | speech | Recording finished.
+2026-07-17 13:11:06 | INFO     | speech | record_audio took 5.47s
+2026-07-17 13:11:07 | INFO     | speech | Transcription: 'Hi, what's wrong with you?' (lang confidence: 1.00)
+2026-07-17 13:11:07 | INFO     | speech | transcribe took 0.43s
+2026-07-17 13:11:14 | INFO     | speech | Loading Whisper model 'base'...
+2026-07-17 13:11:15 | INFO     | speech | Whisper model loaded.
+2026-07-17 13:11:15 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 13:11:25 | INFO     | speech | Silence detected, stopping after 9.9s.
+2026-07-17 13:11:25 | INFO     | speech | Recording finished.
+2026-07-17 13:11:25 | INFO     | speech | record_audio took 10.35s
+2026-07-17 13:11:26 | INFO     | speech | Transcription: 'okay so i want to speak like a lot i'm gonna like say a lot of stuff and you have to like listen to me because i want to speak a lot of stuff and it won't stop until i will like not stop' (lang confidence: 1.00)
+2026-07-17 13:11:26 | INFO     | speech | transcribe took 1.02s
+2026-07-17 13:13:12 | INFO     | speech | Loading Whisper model 'base'...
+2026-07-17 13:13:13 | INFO     | speech | Whisper model loaded.
+2026-07-17 13:13:13 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 13:13:17 | INFO     | speech | Silence detected, stopping after 3.6s.
+2026-07-17 13:13:17 | INFO     | speech | Recording finished.
+2026-07-17 13:13:17 | INFO     | speech | record_audio took 4.05s
+2026-07-17 13:13:18 | INFO     | speech | Transcription: 'Hello testing the new recording' (lang confidence: 1.00)
+2026-07-17 13:13:18 | INFO     | speech | transcribe took 0.40s
+2026-07-17 13:17:35 | INFO     | speech | Loading Whisper model 'tiny'...
+2026-07-17 13:18:39 | INFO     | speech | Whisper model loaded.
+2026-07-17 13:18:39 | INFO     | tts | Loading Piper voice from C:\AI-Assistant\voices\en_US-lessac-medium.onnx...
+2026-07-17 13:18:40 | INFO     | tts | Piper voice loaded.
+2026-07-17 13:18:40 | INFO     | assistant | Assistant initialized.
+2026-07-17 13:18:40 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 13:18:50 | INFO     | speech | Silence detected, stopping after 8.8s.
+2026-07-17 13:18:50 | INFO     | speech | Recording finished.
+2026-07-17 13:18:50 | INFO     | speech | record_audio took 9.45s
+2026-07-17 13:18:50 | INFO     | speech | Transcription: 'Hi, how will you decide to talk to someone?' (lang confidence: 1.00)
+2026-07-17 13:18:50 | INFO     | speech | transcribe took 0.23s
+2026-07-17 13:18:50 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'Hi, how will you decide to talk to someone?'
+2026-07-17 13:18:53 | INFO     | llm | Ollama response: 'I'll consider whether I need to explain something in detail, keep things concise for easier listening, and tailor my tone and language to be clear and friendly. I want our conversation to feel natural and easy to understand!'
+2026-07-17 13:18:53 | INFO     | llm | get_response took 3.61s
+2026-07-17 13:18:54 | INFO     | tts | synthesize took 0.41s
+2026-07-17 13:19:06 | INFO     | tts | play_audio took 12.54s
+2026-07-17 13:19:06 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 13:19:12 | INFO     | speech | Silence detected, stopping after 4.8s.
+2026-07-17 13:19:12 | INFO     | speech | Recording finished.
+2026-07-17 13:19:12 | INFO     | speech | record_audio took 5.39s
+2026-07-17 13:19:12 | INFO     | speech | Transcription: 'Okay, what is the definition of my two-conjure?' (lang confidence: 1.00)
+2026-07-17 13:19:12 | INFO     | speech | transcribe took 0.27s
+2026-07-17 13:19:12 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'Okay, what is the definition of my two-conjure?'
+2026-07-17 13:19:13 | INFO     | llm | Ollama response: 'I'm not familiar with that term, could you please provide more context or information about where you heard it? I'll do my best to help you figure out its meaning.'
+2026-07-17 13:19:13 | INFO     | llm | get_response took 1.14s
+2026-07-17 13:19:13 | INFO     | tts | synthesize took 0.24s
+2026-07-17 13:19:22 | INFO     | tts | play_audio took 8.97s
+2026-07-17 13:19:22 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 13:19:28 | INFO     | speech | Silence detected, stopping after 4.5s.
+2026-07-17 13:19:28 | INFO     | speech | Recording finished.
+2026-07-17 13:19:28 | INFO     | speech | record_audio took 5.44s
+2026-07-17 13:19:28 | INFO     | speech | Transcription: 'I am saying what is the definition of mitochondria?' (lang confidence: 1.00)
+2026-07-17 13:19:28 | INFO     | speech | transcribe took 0.24s
+2026-07-17 13:19:28 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'I am saying what is the definition of mitochondria?'
+2026-07-17 13:19:29 | INFO     | llm | Ollama response: 'Mitochondria are tiny organelles found in cells that generate most of our body's energy, by producing a molecule called ATP through cellular respiration. They're like little powerhouses inside your cells!'
+2026-07-17 13:19:29 | INFO     | llm | get_response took 1.17s
+2026-07-17 13:19:30 | INFO     | tts | synthesize took 0.35s
+2026-07-17 13:19:42 | INFO     | tts | play_audio took 12.25s
+2026-07-17 13:19:42 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 13:19:48 | INFO     | speech | Silence detected, stopping after 5.1s.
+2026-07-17 13:19:48 | INFO     | speech | Recording finished.
+2026-07-17 13:19:48 | INFO     | speech | record_audio took 6.06s
+2026-07-17 13:19:48 | INFO     | speech | Transcription: 'Watch the square of 6457-8' (lang confidence: 1.00)
+2026-07-17 13:19:48 | INFO     | speech | transcribe took 0.24s
+2026-07-17 13:19:48 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'Watch the square of 6457-8'
+2026-07-17 13:19:49 | INFO     | llm | Ollama response: 'To calculate that, I'll first find the square root of 6457, which is approximately 254, then subtract 8 from it and finally square that result to get your final answer.'
+2026-07-17 13:19:49 | INFO     | llm | get_response took 1.25s
+2026-07-17 13:19:50 | INFO     | tts | synthesize took 0.32s
+2026-07-17 13:20:02 | INFO     | tts | play_audio took 12.22s
+2026-07-17 13:20:02 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 13:20:06 | INFO     | speech | Silence detected, stopping after 3.0s.
+2026-07-17 13:20:06 | INFO     | speech | Recording finished.
+2026-07-17 13:20:06 | INFO     | speech | record_audio took 3.89s
+2026-07-17 13:20:06 | INFO     | speech | Transcription: 'Okay, thank you. Good bye.' (lang confidence: 1.00)
+2026-07-17 13:20:06 | INFO     | speech | transcribe took 0.23s
+2026-07-17 13:20:06 | INFO     | tts | synthesize took 0.06s
+2026-07-17 13:20:08 | INFO     | tts | play_audio took 2.05s
+2026-07-17 13:20:08 | INFO     | assistant | Assistant stopped via exit phrase.
+2026-07-17 13:24:53 | INFO     | speech | Loading Whisper model 'base'...
+2026-07-17 13:24:54 | INFO     | speech | Whisper model loaded.
+2026-07-17 13:24:54 | INFO     | tts | Loading Piper voice from C:\AI-Assistant\voices\en_US-lessac-medium.onnx...
+2026-07-17 13:24:55 | INFO     | tts | Piper voice loaded.
+2026-07-17 13:24:56 | INFO     | assistant | Assistant initialized.
+2026-07-17 13:24:56 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 13:25:01 | INFO     | speech | Silence detected, stopping after 5.4s.
+2026-07-17 13:25:02 | INFO     | speech | Recording finished.
+2026-07-17 13:25:02 | INFO     | speech | record_audio took 5.78s
+2026-07-17 13:25:02 | INFO     | speech | Transcription: 'Hello, what square root of 6, 7, 8, 9, 10?' (lang confidence: 1.00)
+2026-07-17 13:25:02 | INFO     | speech | transcribe took 0.43s
+2026-07-17 13:25:02 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'Hello, what square root of 6, 7, 8, 9, 10?'
+2026-07-17 13:25:03 | INFO     | llm | Ollama response: 'I think you meant to ask for the square roots of those numbers individually. The square root of 6 is approximately 2.45, and that's it!'
+2026-07-17 13:25:03 | INFO     | llm | get_response took 1.15s
+2026-07-17 13:25:03 | ERROR    | tts | TTS failed: # channels not specified
+2026-07-17 13:25:03 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 13:25:05 | INFO     | speech | Silence detected, stopping after 1.4s.
+2026-07-17 13:25:05 | INFO     | speech | Recording finished.
+2026-07-17 13:25:05 | INFO     | speech | record_audio took 1.81s
+2026-07-17 13:25:05 | WARNING  | speech | Transcription returned empty text.
+2026-07-17 13:25:05 | INFO     | speech | transcribe took 0.40s
+2026-07-17 13:25:05 | INFO     | fallback | No speech detected, using fallback phrase.
+2026-07-17 13:25:05 | ERROR    | tts | TTS failed: # channels not specified
+2026-07-17 13:25:05 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 13:25:10 | INFO     | speech | Silence detected, stopping after 4.4s.
+2026-07-17 13:25:10 | INFO     | speech | Recording finished.
+2026-07-17 13:25:10 | INFO     | speech | record_audio took 5.00s
+2026-07-17 13:25:11 | INFO     | speech | Transcription: 'Can you tell me?' (lang confidence: 1.00)
+2026-07-17 13:25:11 | INFO     | speech | transcribe took 0.39s
+2026-07-17 13:25:11 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'Can you tell me?'
+2026-07-17 13:25:12 | INFO     | llm | Ollama response: 'I'd love to help, but I'm not sure what you're asking for. Can you please give me a little more information about what's on your mind?'
+2026-07-17 13:25:12 | INFO     | llm | get_response took 1.19s
+2026-07-17 13:25:12 | ERROR    | tts | TTS failed: # channels not specified
+2026-07-17 13:25:12 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 13:25:17 | INFO     | speech | Silence detected, stopping after 4.6s.
+2026-07-17 13:25:17 | INFO     | speech | Recording finished.
+2026-07-17 13:25:17 | INFO     | speech | record_audio took 4.97s
+2026-07-17 13:25:17 | INFO     | speech | Transcription: 'I can't hear you.' (lang confidence: 1.00)
+2026-07-17 13:25:17 | INFO     | speech | transcribe took 0.42s
+2026-07-17 13:25:17 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'I can't hear you.'
+2026-07-17 13:25:18 | INFO     | llm | Ollama response: 'It looks like we've lost contact. Can you please try to reconnect with me? I'll do my best to help if you're back in range.'
+2026-07-17 13:25:18 | INFO     | llm | get_response took 0.97s
+2026-07-17 13:25:18 | ERROR    | tts | TTS failed: # channels not specified
+2026-07-17 13:25:18 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 13:25:22 | INFO     | speech | Silence detected, stopping after 3.2s.
+2026-07-17 13:25:22 | INFO     | speech | Recording finished.
+2026-07-17 13:25:22 | INFO     | speech | record_audio took 3.59s
+2026-07-17 13:25:22 | INFO     | speech | Transcription: 'Sorry.' (lang confidence: 1.00)
+2026-07-17 13:25:22 | INFO     | speech | transcribe took 0.41s
+2026-07-17 13:25:22 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'Sorry.'
+2026-07-17 13:25:23 | INFO     | llm | Ollama response: 'No need to apologize! It's okay if you make mistakes - we can start fresh anytime you'd like. What can I help you with today?'
+2026-07-17 13:25:23 | INFO     | llm | get_response took 1.14s
+2026-07-17 13:25:23 | ERROR    | tts | TTS failed: # channels not specified
+2026-07-17 13:25:23 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 13:25:25 | INFO     | speech | Silence detected, stopping after 1.5s.
+2026-07-17 13:25:25 | INFO     | speech | Recording finished.
+2026-07-17 13:25:25 | INFO     | speech | record_audio took 1.89s
+2026-07-17 13:25:26 | INFO     | speech | Transcription: 'Okay, fuck you.' (lang confidence: 1.00)
+2026-07-17 13:25:26 | INFO     | speech | transcribe took 0.41s
+2026-07-17 13:25:26 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'Okay, fuck you.'
+2026-07-17 13:25:27 | INFO     | llm | Ollama response: 'I'm here to help, and I want you to feel comfortable talking to me. Can you tell me what's on your mind and how I can assist you?'
+2026-07-17 13:25:27 | INFO     | llm | get_response took 1.07s
+2026-07-17 13:25:27 | ERROR    | tts | TTS failed: # channels not specified
+2026-07-17 13:25:27 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 13:25:29 | INFO     | speech | Silence detected, stopping after 1.6s.
+2026-07-17 13:25:29 | INFO     | speech | Recording finished.
+2026-07-17 13:25:29 | INFO     | speech | record_audio took 1.98s
+2026-07-17 13:25:29 | INFO     | speech | Transcription: 'Bye.' (lang confidence: 1.00)
+2026-07-17 13:25:29 | INFO     | speech | transcribe took 0.38s
+2026-07-17 13:25:29 | ERROR    | tts | TTS failed: # channels not specified
+2026-07-17 13:25:29 | INFO     | assistant | Assistant stopped via exit phrase.
+2026-07-17 13:26:34 | INFO     | speech | Loading Whisper model 'base'...
+2026-07-17 13:26:35 | INFO     | speech | Whisper model loaded.
+2026-07-17 13:26:35 | INFO     | tts | Loading Piper voice from C:\AI-Assistant\voices\en_US-lessac-medium.onnx...
+2026-07-17 13:26:36 | INFO     | tts | Piper voice loaded.
+2026-07-17 13:26:37 | INFO     | assistant | Assistant initialized.
+2026-07-17 13:26:37 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 13:26:41 | INFO     | speech | Silence detected, stopping after 4.4s.
+2026-07-17 13:26:41 | INFO     | speech | Recording finished.
+2026-07-17 13:26:41 | INFO     | speech | record_audio took 4.79s
+2026-07-17 13:26:42 | INFO     | speech | Transcription: 'Hello, what's 3,468-2?' (lang confidence: 1.00)
+2026-07-17 13:26:42 | INFO     | speech | transcribe took 0.41s
+2026-07-17 13:26:42 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'Hello, what's 3,468-2?'
+2026-07-17 13:26:43 | INFO     | llm | Ollama response: 'That would be 3,466. Would you like me to help with anything else?'
+2026-07-17 13:26:43 | INFO     | llm | get_response took 1.07s
+2026-07-17 13:26:43 | INFO     | tts | synthesize took 0.21s
+2026-07-17 13:26:49 | INFO     | tts | play_audio took 5.63s
+2026-07-17 13:26:49 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 13:26:52 | INFO     | speech | Silence detected, stopping after 3.3s.
+2026-07-17 13:26:52 | INFO     | speech | Recording finished.
+2026-07-17 13:26:52 | INFO     | speech | record_audio took 3.68s
+2026-07-17 13:26:53 | INFO     | speech | Transcription: 'Tell me what is going on.' (lang confidence: 1.00)
+2026-07-17 13:26:53 | INFO     | speech | transcribe took 0.41s
+2026-07-17 13:26:53 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'Tell me what is going on.'
+2026-07-17 13:26:54 | INFO     | llm | Ollama response: 'I'm happy to help you catch up. I was waiting for your input, but I don't have any specific information about what's happening in the world right now, since our conversation just started. What's on your mind?'
+2026-07-17 13:26:54 | INFO     | llm | get_response took 1.38s
+2026-07-17 13:26:55 | INFO     | tts | synthesize took 0.33s
+2026-07-17 13:27:06 | INFO     | tts | play_audio took 11.09s
+2026-07-17 13:27:06 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 13:27:09 | INFO     | speech | Silence detected, stopping after 2.6s.
+2026-07-17 13:27:09 | INFO     | speech | Recording finished.
+2026-07-17 13:27:09 | INFO     | speech | record_audio took 2.98s
+2026-07-17 13:27:09 | INFO     | speech | Transcription: 'Can you tell me more about India?' (lang confidence: 1.00)
+2026-07-17 13:27:09 | INFO     | speech | transcribe took 0.42s
+2026-07-17 13:27:09 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'Can you tell me more about India?'
+2026-07-17 13:27:10 | INFO     | llm | Ollama response: 'India is a vast and vibrant country with a rich history, diverse culture, and breathtaking landscapes. It's home to over 1.3 billion people from more than 22 official languages and numerous ethnic groups.'
+2026-07-17 13:27:10 | INFO     | llm | get_response took 1.32s
+2026-07-17 13:27:11 | INFO     | tts | synthesize took 0.34s
+2026-07-17 13:27:23 | INFO     | tts | play_audio took 12.72s
+2026-07-17 13:27:23 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 13:27:26 | INFO     | speech | Silence detected, stopping after 2.0s.
+2026-07-17 13:27:26 | INFO     | speech | Recording finished.
+2026-07-17 13:27:26 | INFO     | speech | record_audio took 2.38s
+2026-07-17 13:27:26 | INFO     | speech | Transcription: 'Okay, bye' (lang confidence: 1.00)
+2026-07-17 13:27:26 | INFO     | speech | transcribe took 0.39s
+2026-07-17 13:27:26 | INFO     | tts | synthesize took 0.07s
+2026-07-17 13:27:29 | INFO     | tts | play_audio took 2.57s
+2026-07-17 13:27:29 | INFO     | assistant | Assistant stopped via exit phrase.
+2026-07-17 13:28:17 | INFO     | speech | Loading Whisper model 'base'...
+2026-07-17 13:28:18 | INFO     | speech | Whisper model loaded.
+2026-07-17 13:28:18 | INFO     | tts | Loading Piper voice from C:\AI-Assistant\voices\en_US-lessac-medium.onnx...
+2026-07-17 13:28:20 | INFO     | tts | Piper voice loaded.
+2026-07-17 13:28:20 | INFO     | assistant | Assistant initialized.
+2026-07-17 13:28:20 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 13:28:35 | WARNING  | speech | Max recording duration (15s) reached.
+2026-07-17 13:28:35 | INFO     | speech | Recording finished.
+2026-07-17 13:28:35 | INFO     | speech | record_audio took 15.49s
+2026-07-17 13:28:36 | WARNING  | speech | Transcription returned empty text.
+2026-07-17 13:28:36 | INFO     | speech | transcribe took 0.41s
+2026-07-17 13:28:36 | INFO     | fallback | No speech detected, using fallback phrase.
+2026-07-17 13:28:36 | INFO     | tts | synthesize took 0.14s
+2026-07-17 13:28:39 | INFO     | tts | play_audio took 3.22s
+2026-07-17 13:28:39 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 13:28:55 | WARNING  | speech | Max recording duration (15s) reached.
+2026-07-17 13:28:55 | INFO     | speech | Recording finished.
+2026-07-17 13:28:55 | INFO     | speech | record_audio took 15.47s
+2026-07-17 13:28:58 | INFO     | speech | Transcription: 'I'll see you in the next video.' (lang confidence: 1.00)
+2026-07-17 13:28:58 | INFO     | speech | transcribe took 2.99s
+2026-07-17 13:28:58 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'I'll see you in the next video.'
+2026-07-17 13:28:58 | INFO     | llm | Ollama response: 'It was nice chatting with you. I'll be here when you're ready to chat again!'
+2026-07-17 13:28:58 | INFO     | llm | get_response took 0.89s
+2026-07-17 13:28:59 | INFO     | tts | synthesize took 0.14s
+2026-07-17 13:29:03 | INFO     | tts | play_audio took 4.25s
+2026-07-17 13:29:03 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 13:29:12 | INFO     | speech | Silence detected, stopping after 8.5s.
+2026-07-17 13:29:12 | INFO     | speech | Recording finished.
+2026-07-17 13:29:12 | INFO     | speech | record_audio took 9.33s
+2026-07-17 13:29:13 | WARNING  | speech | Transcription returned empty text.
+2026-07-17 13:29:13 | INFO     | speech | transcribe took 0.50s
+2026-07-17 13:29:13 | INFO     | fallback | No speech detected, using fallback phrase.
+2026-07-17 13:29:13 | INFO     | tts | synthesize took 0.11s
+2026-07-17 13:29:16 | INFO     | tts | play_audio took 3.54s
+2026-07-17 13:29:16 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 13:29:20 | INFO     | speech | Silence detected, stopping after 3.1s.
+2026-07-17 13:29:20 | INFO     | speech | Recording finished.
+2026-07-17 13:29:20 | INFO     | speech | record_audio took 3.87s
+2026-07-17 13:29:21 | INFO     | speech | Transcription: 'Good-bye.' (lang confidence: 1.00)
+2026-07-17 13:29:21 | INFO     | speech | transcribe took 0.40s
+2026-07-17 13:29:21 | INFO     | tts | synthesize took 0.07s
+2026-07-17 13:29:23 | INFO     | tts | play_audio took 2.63s
+2026-07-17 13:29:23 | INFO     | assistant | Assistant stopped via exit phrase.
+2026-07-17 13:31:05 | INFO     | speech | Loading Whisper model 'base'...
+2026-07-17 13:31:06 | INFO     | speech | Whisper model loaded.
+2026-07-17 13:31:06 | INFO     | tts | Loading Piper voice from C:\AI-Assistant\voices\en_US-lessac-medium.onnx...
+2026-07-17 13:31:08 | INFO     | tts | Piper voice loaded.
+2026-07-17 13:31:08 | INFO     | assistant | Assistant initialized.
+2026-07-17 13:31:08 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 13:31:10 | INFO     | speech | Silence detected, stopping after 1.9s.
+2026-07-17 13:31:10 | INFO     | speech | Recording finished.
+2026-07-17 13:31:10 | INFO     | speech | record_audio took 2.44s
+2026-07-17 13:31:11 | INFO     | speech | Transcription: 'Hello, are you dead?' (lang confidence: 1.00)
+2026-07-17 13:31:11 | INFO     | speech | transcribe took 0.47s
+2026-07-17 13:31:11 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'Hello, are you dead?'
+2026-07-17 13:31:13 | ERROR    | llm | LLM call failed: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2026-07-17 13:31:13 | INFO     | llm | get_response took 2.05s
+2026-07-17 13:31:13 | ERROR    | fallback | LLM returned empty/failed, using failure fallback.
+2026-07-17 13:31:13 | INFO     | tts | synthesize took 0.17s
+2026-07-17 13:31:17 | INFO     | tts | play_audio took 3.99s
+2026-07-17 13:31:17 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 13:31:21 | INFO     | speech | Silence detected, stopping after 3.2s.
+2026-07-17 13:31:21 | INFO     | speech | Recording finished.
+2026-07-17 13:31:21 | INFO     | speech | record_audio took 4.13s
+2026-07-17 13:31:22 | INFO     | speech | Transcription: 'Hello, are you there?' (lang confidence: 1.00)
+2026-07-17 13:31:22 | INFO     | speech | transcribe took 0.42s
+2026-07-17 13:31:22 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'Hello, are you there?'
+2026-07-17 13:31:24 | ERROR    | llm | LLM call failed: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2026-07-17 13:31:24 | INFO     | llm | get_response took 2.04s
+2026-07-17 13:31:24 | ERROR    | fallback | LLM returned empty/failed, using failure fallback.
+2026-07-17 13:31:24 | INFO     | tts | synthesize took 0.11s
+2026-07-17 13:31:28 | INFO     | tts | play_audio took 4.06s
+2026-07-17 13:31:28 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 13:31:29 | INFO     | speech | Silence detected, stopping after 1.2s.
+2026-07-17 13:31:30 | INFO     | speech | Recording finished.
+2026-07-17 13:31:30 | INFO     | speech | record_audio took 1.66s
+2026-07-17 13:31:30 | INFO     | speech | Transcription: 'Bye' (lang confidence: 1.00)
+2026-07-17 13:31:30 | INFO     | speech | transcribe took 0.37s
+2026-07-17 13:31:30 | INFO     | tts | synthesize took 0.07s
+2026-07-17 13:31:32 | INFO     | tts | play_audio took 2.39s
+2026-07-17 13:31:32 | INFO     | assistant | Assistant stopped via exit phrase.
+2026-07-17 20:51:05 | INFO     | speech | Loading Whisper model 'base'...
+2026-07-17 20:51:07 | INFO     | speech | Whisper model loaded.
+2026-07-17 20:51:08 | INFO     | tts | Loading Piper voice from C:\AI-Assistant\voices\en_US-lessac-medium.onnx...
+2026-07-17 20:51:10 | INFO     | tts | Piper voice loaded.
+2026-07-17 20:51:10 | INFO     | assistant | Assistant initialized.
+2026-07-17 20:51:10 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 20:51:17 | INFO     | speech | Silence detected, stopping after 3.7s.
+2026-07-17 20:51:18 | INFO     | speech | Recording finished.
+2026-07-17 20:51:18 | INFO     | speech | record_audio took 7.33s
+2026-07-17 20:51:19 | INFO     | speech | Transcription: 'What is 66 plus 78?' (lang confidence: 1.00)
+2026-07-17 20:51:19 | INFO     | speech | transcribe took 1.32s
+2026-07-17 20:51:19 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'What is 66 plus 78?'
+2026-07-17 20:51:27 | WARNING  | fallback | get_response timed out after 8s.
+2026-07-17 20:51:28 | INFO     | llm | Ollama response: 'That's an easy one! The answer is 144.'
+2026-07-17 20:51:28 | INFO     | llm | get_response took 8.87s
+2026-07-17 20:51:28 | WARNING  | fallback | LLM timed out, using slow-filler fallback.
+2026-07-17 20:51:33 | INFO     | tts | synthesize took 5.01s
+2026-07-17 20:51:36 | INFO     | tts | play_audio took 2.91s
+2026-07-17 20:51:36 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 20:51:39 | INFO     | speech | Silence detected, stopping after 2.2s.
+2026-07-17 20:51:39 | INFO     | speech | Recording finished.
+2026-07-17 20:51:39 | INFO     | speech | record_audio took 3.20s
+2026-07-17 20:51:41 | INFO     | speech | Transcription: 'Bitch, I love you.' (lang confidence: 1.00)
+2026-07-17 20:51:41 | INFO     | speech | transcribe took 1.78s
+2026-07-17 20:51:41 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'Bitch, I love you.'
+2026-07-17 20:51:43 | INFO     | llm | Ollama response: 'I'm here to help with any questions or concerns you have, but I want to let you know that I'm a machine, and I don't take personal feelings in the classical sense. How can I assist you today?'
+2026-07-17 20:51:43 | INFO     | llm | get_response took 2.57s
+2026-07-17 20:51:45 | INFO     | tts | synthesize took 1.34s
+2026-07-17 20:51:55 | INFO     | tts | play_audio took 10.74s
+2026-07-17 20:51:55 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 20:51:59 | INFO     | speech | Silence detected, stopping after 2.3s.
+2026-07-17 20:51:59 | INFO     | speech | Recording finished.
+2026-07-17 20:51:59 | INFO     | speech | record_audio took 3.37s
+2026-07-17 20:52:00 | INFO     | speech | Transcription: 'One second, daddy' (lang confidence: 1.00)
+2026-07-17 20:52:00 | INFO     | speech | transcribe took 1.21s
+2026-07-17 20:52:00 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'One second, daddy'
+2026-07-17 20:52:01 | INFO     | llm | Ollama response: 'It sounds like someone's trying to get your attention. Did you need something or just wanted to say hi?'
+2026-07-17 20:52:01 | INFO     | llm | get_response took 1.41s
+2026-07-17 20:52:03 | INFO     | tts | synthesize took 1.17s
+2026-07-17 20:52:09 | INFO     | tts | play_audio took 5.97s
+2026-07-17 20:52:09 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 20:52:12 | INFO     | speech | Silence detected, stopping after 2.9s.
+2026-07-17 20:52:13 | INFO     | speech | Recording finished.
+2026-07-17 20:52:13 | INFO     | speech | record_audio took 4.07s
+2026-07-17 20:52:14 | INFO     | speech | Transcription: 'You like it? Yeah.' (lang confidence: 1.00)
+2026-07-17 20:52:14 | INFO     | speech | transcribe took 1.76s
+2026-07-17 20:52:14 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'You like it? Yeah.'
+2026-07-17 20:52:17 | INFO     | llm | Ollama response: 'That's a pretty straightforward response! It sounds like you're trying to gauge my personality or opinions about something, but I'm afraid I don't have personal preferences or emotions yet. How can I help you today?'
+2026-07-17 20:52:17 | INFO     | llm | get_response took 2.76s
+2026-07-17 20:52:18 | INFO     | assistant | Assistant stopped via KeyboardInterrupt.
+2026-07-17 20:54:28 | INFO     | speech | Loading Whisper model 'base'...
+2026-07-17 20:54:29 | INFO     | speech | Whisper model loaded.
+2026-07-17 20:54:30 | INFO     | tts | Loading Piper voice from C:\AI-Assistant\voices\en_US-lessac-medium.onnx...
+2026-07-17 20:54:31 | INFO     | tts | Piper voice loaded.
+2026-07-17 20:54:32 | INFO     | assistant | Assistant initialized.
+2026-07-17 20:54:32 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 20:54:36 | INFO     | speech | Silence detected, stopping after 4.3s.
+2026-07-17 20:54:37 | INFO     | speech | Recording finished.
+2026-07-17 20:54:37 | INFO     | speech | record_audio took 4.87s
+2026-07-17 20:54:38 | INFO     | speech | Transcription: 'Hello, I am Solv 66 plus 78' (lang confidence: 1.00)
+2026-07-17 20:54:38 | INFO     | speech | transcribe took 1.00s
+2026-07-17 20:54:38 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'Hello, I am Solv 66 plus 78'
+2026-07-17 20:54:39 | INFO     | llm | Ollama response: 'Let's add those numbers together. Solv 66, plus 78 is... 144.'
+2026-07-17 20:54:39 | INFO     | llm | get_response took 1.30s
+2026-07-17 20:54:40 | INFO     | tts | synthesize took 1.35s
+2026-07-17 20:54:47 | INFO     | tts | play_audio took 6.34s
+2026-07-17 20:54:47 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 20:54:50 | INFO     | speech | Silence detected, stopping after 3.5s.
+2026-07-17 20:54:51 | INFO     | speech | Recording finished.
+2026-07-17 20:54:51 | INFO     | speech | record_audio took 4.02s
+2026-07-17 20:54:52 | INFO     | speech | Transcription: 'Good bye.' (lang confidence: 1.00)
+2026-07-17 20:54:52 | INFO     | speech | transcribe took 1.36s
+2026-07-17 20:54:53 | INFO     | tts | synthesize took 0.50s
+2026-07-17 20:54:55 | INFO     | tts | play_audio took 2.83s
+2026-07-17 20:54:55 | INFO     | assistant | Assistant stopped via exit phrase.
+2026-07-17 20:56:19 | INFO     | speech | Loading Whisper model 'base'...
+2026-07-17 20:56:21 | INFO     | speech | Whisper model loaded.
+2026-07-17 20:56:22 | INFO     | tts | Loading Piper voice from C:\AI-Assistant\voices\en_US-lessac-medium.onnx...
+2026-07-17 20:56:23 | INFO     | tts | Piper voice loaded.
+2026-07-17 20:56:24 | INFO     | assistant | Assistant initialized.
+2026-07-17 20:56:24 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 20:56:31 | INFO     | speech | Silence detected, stopping after 6.1s.
+2026-07-17 20:56:31 | INFO     | speech | Recording finished.
+2026-07-17 20:56:31 | INFO     | speech | record_audio took 6.74s
+2026-07-17 20:56:32 | INFO     | speech | Transcription: 'Hello, so I'm 66 plus 78' (lang confidence: 1.00)
+2026-07-17 20:56:32 | INFO     | speech | transcribe took 1.00s
+2026-07-17 20:56:32 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'Hello, so I'm 66 plus 78'
+2026-07-17 20:56:34 | INFO     | llm | Ollama response: 'It sounds like you're feeling a bit under the weather, as that's an age-related combination. Would you like me to suggest anything for comfort?'
+2026-07-17 20:56:34 | INFO     | llm | get_response took 2.74s
+2026-07-17 20:56:36 | INFO     | tts | synthesize took 1.59s
+2026-07-17 20:56:44 | INFO     | tts | play_audio took 7.93s
+2026-07-17 20:56:44 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 20:56:51 | INFO     | speech | Silence detected, stopping after 6.0s.
+2026-07-17 20:56:51 | INFO     | speech | Recording finished.
+2026-07-17 20:56:51 | INFO     | speech | record_audio took 7.19s
+2026-07-17 20:56:52 | INFO     | speech | Transcription: 'I am saying solve 66 plus 78.' (lang confidence: 1.00)
+2026-07-17 20:56:52 | INFO     | speech | transcribe took 0.79s
+2026-07-17 20:56:52 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'I am saying solve 66 plus 78.'
+2026-07-17 20:56:54 | INFO     | llm | Ollama response: 'That's easy - 66 plus 78 equals 144. How can I help you with something else?'
+2026-07-17 20:56:54 | INFO     | llm | get_response took 2.22s
+2026-07-17 20:56:55 | INFO     | tts | synthesize took 1.27s
+2026-07-17 20:57:02 | INFO     | tts | play_audio took 6.27s
+2026-07-17 20:57:02 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 20:57:04 | INFO     | speech | Silence detected, stopping after 1.6s.
+2026-07-17 20:57:04 | INFO     | speech | Recording finished.
+2026-07-17 20:57:04 | INFO     | speech | record_audio took 2.22s
+2026-07-17 20:57:05 | INFO     | speech | Transcription: 'Yeah, I think' (lang confidence: 1.00)
+2026-07-17 20:57:05 | INFO     | speech | transcribe took 1.08s
+2026-07-17 20:57:05 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'Yeah, I think'
+2026-07-17 20:57:07 | INFO     | llm | Ollama response: 'It sounds like you're feeling uncertain about something. Can you tell me more about what's on your mind?'
+2026-07-17 20:57:07 | INFO     | llm | get_response took 2.05s
+2026-07-17 20:57:08 | INFO     | tts | synthesize took 1.31s
+2026-07-17 20:57:14 | INFO     | tts | play_audio took 5.60s
+2026-07-17 20:57:14 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 20:57:18 | INFO     | speech | Silence detected, stopping after 3.9s.
+2026-07-17 20:57:18 | INFO     | speech | Recording finished.
+2026-07-17 20:57:18 | INFO     | speech | record_audio took 4.40s
+2026-07-17 20:57:20 | INFO     | speech | Transcription: 'What is 7 square?' (lang confidence: 1.00)
+2026-07-17 20:57:20 | INFO     | speech | transcribe took 1.53s
+2026-07-17 20:57:20 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'What is 7 square?'
+2026-07-17 20:57:23 | INFO     | llm | Ollama response: 'I think you meant to say "7 x"! The answer would be seven multiplied by one, so it's just 7. If you're looking for a different calculation, feel free to ask and I'll help!'
+2026-07-17 20:57:23 | INFO     | llm | get_response took 2.63s
+2026-07-17 20:57:24 | INFO     | tts | synthesize took 1.51s
+2026-07-17 20:57:35 | INFO     | tts | play_audio took 10.84s
+2026-07-17 20:57:35 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 20:57:38 | INFO     | speech | Silence detected, stopping after 2.9s.
+2026-07-17 20:57:38 | INFO     | speech | Recording finished.
+2026-07-17 20:57:38 | INFO     | speech | record_audio took 3.48s
+2026-07-17 20:57:39 | INFO     | speech | Transcription: 'What is 7th square?' (lang confidence: 1.00)
+2026-07-17 20:57:39 | INFO     | speech | transcribe took 0.62s
+2026-07-17 20:57:39 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'What is 7th square?'
+2026-07-17 20:57:43 | INFO     | llm | Ollama response: 'I think you might be referring to the Pythagorean theorem's "Fifth Square" or more specifically, the " Fifth power of 3 is a perfect square of a multiple of a fifth power of another number". However, I found that in some cultures, particularly Asian cultures, there's an interesting concept called the "Seventh Square". Would you like to know more about it?'
+2026-07-17 20:57:43 | INFO     | llm | get_response took 3.71s
+2026-07-17 20:57:45 | INFO     | tts | synthesize took 2.09s
+2026-07-17 20:58:04 | INFO     | tts | play_audio took 19.70s
+2026-07-17 20:58:04 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 20:58:07 | INFO     | speech | Silence detected, stopping after 2.1s.
+2026-07-17 20:58:08 | INFO     | speech | Recording finished.
+2026-07-17 20:58:08 | INFO     | speech | record_audio took 3.03s
+2026-07-17 20:58:10 | INFO     | speech | Transcription: 'So, did you tell me?' (lang confidence: 1.00)
+2026-07-17 20:58:10 | INFO     | speech | transcribe took 2.07s
+2026-07-17 20:58:10 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'So, did you tell me?'
+2026-07-17 20:58:12 | INFO     | llm | Ollama response: 'I don't think we had that conversation yet. This is the start of our chat, so let's begin fresh – what would you like to talk about?'
+2026-07-17 20:58:12 | INFO     | llm | get_response took 2.46s
+2026-07-17 20:58:13 | INFO     | tts | synthesize took 1.38s
+2026-07-17 20:58:21 | INFO     | tts | play_audio took 7.97s
+2026-07-17 20:58:21 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 20:58:28 | INFO     | speech | Silence detected, stopping after 5.5s.
+2026-07-17 20:58:28 | INFO     | speech | Recording finished.
+2026-07-17 20:58:28 | INFO     | speech | record_audio took 6.44s
+2026-07-17 20:58:29 | INFO     | speech | Transcription: 'I'm sorry. I'm sorry, I'm sorry. I'm sorry, I'm sorry.' (lang confidence: 1.00)
+2026-07-17 20:58:29 | INFO     | speech | transcribe took 1.23s
+2026-07-17 20:58:29 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'I'm sorry. I'm sorry, I'm sorry. I'm sorry, I'm sorry.'
+2026-07-17 20:58:31 | INFO     | llm | Ollama response: 'It sounds like you're really apologetic! Would you like to talk about what's on your mind and what's causing these apologies?'
+2026-07-17 20:58:31 | INFO     | llm | get_response took 2.32s
+2026-07-17 20:58:33 | INFO     | tts | synthesize took 1.19s
+2026-07-17 20:58:39 | INFO     | tts | play_audio took 6.58s
+2026-07-17 20:58:39 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 20:58:40 | INFO     | assistant | Assistant stopped via KeyboardInterrupt.
+2026-07-17 21:00:04 | INFO     | speech | Loading Whisper model 'base'...
+2026-07-17 21:00:06 | INFO     | speech | Whisper model loaded.
+2026-07-17 21:00:07 | INFO     | tts | Loading Piper voice from C:\AI-Assistant\voices\en_US-lessac-medium.onnx...
+2026-07-17 21:00:09 | INFO     | tts | Piper voice loaded.
+2026-07-17 21:00:09 | INFO     | assistant | Assistant initialized.
+2026-07-17 21:00:09 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 21:00:15 | INFO     | speech | Silence detected, stopping after 5.4s.
+2026-07-17 21:00:15 | INFO     | speech | Recording finished.
+2026-07-17 21:00:15 | INFO     | speech | record_audio took 6.01s
+2026-07-17 21:00:16 | INFO     | speech | Transcription: 'Hello, what is my Toconrea?' (lang confidence: 1.00)
+2026-07-17 21:00:16 | INFO     | speech | transcribe took 1.02s
+2026-07-17 21:00:16 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'Hello, what is my Toconrea?'
+2026-07-17 21:00:18 | INFO     | llm | Ollama response: 'I'm not able to provide you with specific information about your Toconrea, as that's a personal and sensitive topic. However, I can tell you that Toconrea typically refers to a term used in relationships to describe the point at which one partner starts to feel like they're losing control or intimacy.'
+2026-07-17 21:00:18 | INFO     | llm | get_response took 2.44s
+2026-07-17 21:00:21 | INFO     | tts | synthesize took 2.49s
+2026-07-17 21:00:39 | INFO     | tts | play_audio took 17.73s
+2026-07-17 21:00:39 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 21:00:42 | INFO     | speech | Silence detected, stopping after 2.3s.
+2026-07-17 21:00:42 | INFO     | speech | Recording finished.
+2026-07-17 21:00:42 | INFO     | speech | record_audio took 3.25s
+2026-07-17 21:00:43 | INFO     | speech | Transcription: 'You're getting just...' (lang confidence: 1.00)
+2026-07-17 21:00:43 | INFO     | speech | transcribe took 0.77s
+2026-07-17 21:00:43 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'You're getting just...'
+2026-07-17 21:00:45 | INFO     | llm | Ollama response: '...a little tired of being asked how I'm doing, right? Let's focus on helping you instead! What can I assist you with today?'
+2026-07-17 21:00:45 | INFO     | llm | get_response took 2.65s
+2026-07-17 21:00:47 | INFO     | tts | synthesize took 1.27s
+2026-07-17 21:00:54 | INFO     | tts | play_audio took 7.51s
+2026-07-17 21:00:54 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 21:00:57 | INFO     | speech | Silence detected, stopping after 2.1s.
+2026-07-17 21:00:57 | INFO     | speech | Recording finished.
+2026-07-17 21:00:57 | INFO     | speech | record_audio took 2.91s
+2026-07-17 21:00:59 | INFO     | speech | Transcription: 'Half of it and then go.' (lang confidence: 1.00)
+2026-07-17 21:00:59 | INFO     | speech | transcribe took 1.89s
+2026-07-17 21:00:59 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'Half of it and then go.'
+2026-07-17 21:01:01 | INFO     | llm | Ollama response: 'So you want me to give you half of the information I'd typically provide and then stop? Okay, I'll try that! What were we talking about before?'
+2026-07-17 21:01:01 | INFO     | llm | get_response took 2.57s
+2026-07-17 21:01:03 | INFO     | tts | synthesize took 1.24s
+2026-07-17 21:01:12 | INFO     | tts | play_audio took 8.93s
+2026-07-17 21:01:12 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 21:01:23 | INFO     | speech | Silence detected, stopping after 10.2s.
+2026-07-17 21:01:23 | INFO     | speech | Recording finished.
+2026-07-17 21:01:23 | INFO     | speech | record_audio took 11.27s
+2026-07-17 21:01:24 | INFO     | speech | Transcription: '. . . .' (lang confidence: 1.00)
+2026-07-17 21:01:24 | INFO     | speech | transcribe took 0.74s
+2026-07-17 21:01:24 | INFO     | llm | Sending to Ollama (llama3.2:3b): '. . . .'
+2026-07-17 21:01:26 | INFO     | llm | Ollama response: 'It looks like you're waiting for me to respond! Can I help you with something or just chat for a bit?'
+2026-07-17 21:01:26 | INFO     | llm | get_response took 2.27s
+2026-07-17 21:01:27 | INFO     | tts | synthesize took 0.79s
+2026-07-17 21:01:32 | INFO     | tts | play_audio took 5.70s
+2026-07-17 21:01:32 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 21:01:41 | INFO     | speech | Silence detected, stopping after 7.5s.
+2026-07-17 21:01:41 | INFO     | speech | Recording finished.
+2026-07-17 21:01:41 | INFO     | speech | record_audio took 8.59s
+2026-07-17 21:01:47 | INFO     | speech | Transcription: 'You' (lang confidence: 1.00)
+2026-07-17 21:01:47 | INFO     | speech | transcribe took 5.97s
+2026-07-17 21:01:47 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'You'
+2026-07-17 21:01:50 | INFO     | llm | Ollama response: 'I'm here to help! Is there something on your mind that you'd like to talk about, ask a question, or get assistance with?'
+2026-07-17 21:01:50 | INFO     | llm | get_response took 2.81s
+2026-07-17 21:01:51 | INFO     | tts | synthesize took 1.04s
+2026-07-17 21:01:58 | INFO     | tts | play_audio took 6.95s
+2026-07-17 21:01:58 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 21:01:59 | INFO     | assistant | Assistant stopped via KeyboardInterrupt.
+2026-07-17 21:07:15 | INFO     | speech | Loading Whisper model 'base'...
+2026-07-17 21:07:16 | INFO     | speech | Whisper model loaded.
+2026-07-17 21:07:17 | INFO     | tts | Loading Piper voice from C:\AI-Assistant\voices\en_US-lessac-medium.onnx...
+2026-07-17 21:07:18 | INFO     | tts | Piper voice loaded.
+2026-07-17 21:07:19 | INFO     | assistant | Assistant initialized.
+2026-07-17 21:07:19 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 21:07:23 | INFO     | speech | Silence detected, stopping after 3.6s.
+2026-07-17 21:07:23 | INFO     | speech | Recording finished.
+2026-07-17 21:07:23 | INFO     | speech | record_audio took 4.14s
+2026-07-17 21:07:24 | INFO     | speech | Transcription: 'What is the capital of France?' (lang confidence: 1.00)
+2026-07-17 21:07:24 | INFO     | speech | transcribe took 0.91s
+2026-07-17 21:07:24 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'What is the capital of France?'
+2026-07-17 21:07:25 | INFO     | llm | Ollama response: 'The capital of France is Paris. You might recognize it from famous landmarks like the Eiffel Tower!'
+2026-07-17 21:07:25 | INFO     | llm | get_response took 1.54s
+2026-07-17 21:07:27 | INFO     | tts | synthesize took 1.43s
+2026-07-17 21:07:33 | INFO     | tts | play_audio took 6.21s
+2026-07-17 21:07:33 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 21:07:35 | INFO     | speech | Silence detected, stopping after 1.3s.
+2026-07-17 21:07:35 | INFO     | speech | Recording finished.
+2026-07-17 21:07:35 | INFO     | speech | record_audio took 2.21s
+2026-07-17 21:07:36 | INFO     | speech | Transcription: 'Goodbye.' (lang confidence: 1.00)
+2026-07-17 21:07:36 | INFO     | speech | transcribe took 1.05s
+2026-07-17 21:07:36 | INFO     | tts | synthesize took 0.34s
+2026-07-17 21:07:39 | INFO     | tts | play_audio took 2.52s
+2026-07-17 21:07:39 | INFO     | assistant | Assistant stopped via exit phrase.
+2026-07-17 21:10:52 | INFO     | speech | Loading Whisper model 'base'...
+2026-07-17 21:10:54 | INFO     | speech | Whisper model loaded.
+2026-07-17 21:10:55 | INFO     | tts | Loading Piper voice from C:\AI-Assistant\voices\en_US-lessac-medium.onnx...
+2026-07-17 21:10:56 | INFO     | tts | Piper voice loaded.
+2026-07-17 21:10:57 | INFO     | assistant | Assistant initialized.
+2026-07-17 21:10:57 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 21:11:00 | INFO     | speech | Silence detected, stopping after 3.2s.
+2026-07-17 21:11:00 | INFO     | speech | Recording finished.
+2026-07-17 21:11:00 | INFO     | speech | record_audio took 3.77s
+2026-07-17 21:11:01 | INFO     | speech | Transcription: 'Hello, what is my took on Rhea?' (lang confidence: 1.00)
+2026-07-17 21:11:01 | INFO     | speech | transcribe took 0.96s
+2026-07-17 21:11:01 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'Hello, what is my took on Rhea?'
+2026-07-17 21:11:03 | INFO     | llm | Ollama response: 'I don't have any information about your personal views or opinions on Rhea. Could you please provide more context or clarify who or what Rhea refers to in your life? That way, I can try and help you better.'
+2026-07-17 21:11:03 | INFO     | llm | get_response took 2.13s
+2026-07-17 21:11:05 | INFO     | tts | synthesize took 2.01s
+2026-07-17 21:11:17 | INFO     | tts | play_audio took 11.33s
+2026-07-17 21:11:17 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 21:11:20 | INFO     | assistant | Assistant stopped via KeyboardInterrupt.
+2026-07-17 21:14:23 | INFO     | speech | Loading Whisper model 'small'...
+2026-07-17 21:20:58 | INFO     | speech | Whisper model loaded.
+2026-07-17 21:20:58 | INFO     | tts | Loading Piper voice from C:\AI-Assistant\voices\en_US-lessac-medium.onnx...
+2026-07-17 21:21:05 | INFO     | tts | Piper voice loaded.
+2026-07-17 21:21:06 | INFO     | assistant | Assistant initialized.
+2026-07-17 21:21:06 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 21:21:15 | INFO     | speech | Silence detected, stopping after 9.0s.
+2026-07-17 21:21:16 | INFO     | speech | Recording finished.
+2026-07-17 21:21:16 | INFO     | speech | record_audio took 9.68s
+2026-07-17 21:21:19 | INFO     | speech | Transcription: 'You' (lang confidence: 1.00)
+2026-07-17 21:21:19 | INFO     | speech | transcribe took 3.42s
+2026-07-17 21:21:19 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'You'
+2026-07-17 21:21:21 | INFO     | llm | Ollama response: 'I'm here to help with any questions or tasks you'd like assistance with. What's on your mind?'
+2026-07-17 21:21:21 | INFO     | llm | get_response took 2.01s
+2026-07-17 21:21:23 | INFO     | tts | synthesize took 1.64s
+2026-07-17 21:21:28 | INFO     | tts | play_audio took 5.54s
+2026-07-17 21:21:28 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 21:21:31 | INFO     | speech | Silence detected, stopping after 2.3s.
+2026-07-17 21:21:31 | INFO     | speech | Recording finished.
+2026-07-17 21:21:31 | INFO     | speech | record_audio took 3.31s
+2026-07-17 21:21:35 | INFO     | speech | Transcription: 'What is my 2kondria?' (lang confidence: 1.00)
+2026-07-17 21:21:35 | INFO     | speech | transcribe took 3.27s
+2026-07-17 21:21:35 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'What is my 2kondria?'
+2026-07-17 21:21:37 | INFO     | llm | Ollama response: 'I'm happy to help you with that, but I have to say, I've never heard of "2kondria" before - could you please tell me where you got that term from or what it might refer to?'
+2026-07-17 21:21:37 | INFO     | llm | get_response took 2.76s
+2026-07-17 21:21:39 | INFO     | tts | synthesize took 1.55s
+2026-07-17 21:21:48 | INFO     | tts | play_audio took 9.17s
+2026-07-17 21:21:48 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 21:21:52 | INFO     | speech | Silence detected, stopping after 3.1s.
+2026-07-17 21:21:52 | INFO     | speech | Recording finished.
+2026-07-17 21:21:52 | INFO     | speech | record_audio took 4.02s
+2026-07-17 21:21:56 | INFO     | speech | Transcription: 'What is mitochondria?' (lang confidence: 1.00)
+2026-07-17 21:21:56 | INFO     | speech | transcribe took 3.42s
+2026-07-17 21:21:56 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'What is mitochondria?'
+2026-07-17 21:21:58 | INFO     | llm | Ollama response: 'Mitochondria are tiny energy-producing structures found inside the cells of most living things, including humans. They're often called the powerhouses because they generate energy for the cell through a process called cellular respiration.'
+2026-07-17 21:21:58 | INFO     | llm | get_response took 2.07s
+2026-07-17 21:22:00 | INFO     | tts | synthesize took 1.93s
+2026-07-17 21:22:14 | INFO     | tts | play_audio took 14.17s
+2026-07-17 21:22:14 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 21:22:19 | INFO     | speech | Silence detected, stopping after 4.8s.
+2026-07-17 21:22:19 | INFO     | speech | Recording finished.
+2026-07-17 21:22:19 | INFO     | speech | record_audio took 5.42s
+2026-07-17 21:22:23 | INFO     | speech | Transcription: 'okay what is the weather of' (lang confidence: 1.00)
+2026-07-17 21:22:23 | INFO     | speech | transcribe took 3.56s
+2026-07-17 21:22:23 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'okay what is the weather of'
+2026-07-17 21:22:25 | INFO     | llm | Ollama response: 'I'm happy to help you with that, but I need to know which place's weather you're looking for - could you please tell me where that is? Is it a city, state, or country?'
+2026-07-17 21:22:25 | INFO     | llm | get_response took 2.31s
+2026-07-17 21:22:27 | INFO     | tts | synthesize took 1.70s
+2026-07-17 21:22:36 | INFO     | tts | play_audio took 8.86s
+2026-07-17 21:22:36 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 21:22:39 | INFO     | speech | Silence detected, stopping after 3.3s.
+2026-07-17 21:22:40 | INFO     | speech | Recording finished.
+2026-07-17 21:22:40 | INFO     | speech | record_audio took 3.93s
+2026-07-17 21:22:43 | INFO     | speech | Transcription: 'Tell me what?' (lang confidence: 1.00)
+2026-07-17 21:22:43 | INFO     | speech | transcribe took 3.44s
+2026-07-17 21:22:43 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'Tell me what?'
+2026-07-17 21:22:45 | INFO     | llm | Ollama response: 'I'd be happy to help you with something! Can you please tell me what's on your mind or what kind of information are you looking for?'
+2026-07-17 21:22:45 | INFO     | llm | get_response took 1.86s
+2026-07-17 21:22:46 | INFO     | tts | synthesize took 1.37s
+2026-07-17 21:22:53 | INFO     | tts | play_audio took 7.20s
+2026-07-17 21:22:53 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 21:22:56 | INFO     | speech | Silence detected, stopping after 2.2s.
+2026-07-17 21:22:56 | INFO     | speech | Recording finished.
+2026-07-17 21:22:56 | INFO     | speech | record_audio took 2.79s
+2026-07-17 21:22:59 | INFO     | speech | Transcription: 'Goodbye.' (lang confidence: 1.00)
+2026-07-17 21:22:59 | INFO     | speech | transcribe took 3.11s
+2026-07-17 21:23:00 | INFO     | tts | synthesize took 0.24s
+2026-07-17 21:23:02 | INFO     | tts | play_audio took 2.52s
+2026-07-17 21:23:02 | INFO     | assistant | Assistant stopped via exit phrase.
+2026-07-17 21:27:11 | INFO     | speech | Loading Whisper model 'small'...
+2026-07-17 21:27:13 | INFO     | speech | Whisper model loaded.
+2026-07-17 21:27:13 | INFO     | tts | Loading Piper voice from C:\AI-Assistant\voices\en_US-amy-medium.onnx...
+2026-07-17 21:27:19 | INFO     | speech | Loading Whisper model 'small'...
+2026-07-17 21:27:21 | INFO     | speech | Whisper model loaded.
+2026-07-17 21:27:21 | INFO     | tts | Loading Piper voice from C:\AI-Assistant\voices\en_US-amy-medium.onnx...
+2026-07-17 21:32:54 | INFO     | speech | Loading Whisper model 'small'...
+2026-07-17 21:32:55 | INFO     | speech | Whisper model loaded.
+2026-07-17 21:32:56 | INFO     | tts | Loading Piper voice from C:\AI-Assistant\voices\en_US-amy-medium.onnx...
+2026-07-17 21:32:57 | INFO     | tts | Piper voice loaded.
+2026-07-17 21:32:58 | INFO     | assistant | Assistant initialized.
+2026-07-17 21:32:58 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 21:33:00 | INFO     | speech | Silence detected, stopping after 2.4s.
+2026-07-17 21:33:01 | INFO     | speech | Recording finished.
+2026-07-17 21:33:01 | INFO     | speech | record_audio took 3.11s
+2026-07-17 21:33:04 | INFO     | speech | Transcription: 'Hello, how are you?' (lang confidence: 1.00)
+2026-07-17 21:33:04 | INFO     | speech | transcribe took 3.48s
+2026-07-17 21:33:04 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'Hello, how are you?'
+2026-07-17 21:33:07 | INFO     | llm | Ollama response: 'I'm doing well, thanks for asking! I'm here to help with any questions or tasks you have, so feel free to chat with me about anything that's on your mind.'
+2026-07-17 21:33:07 | INFO     | llm | get_response took 2.67s
+2026-07-17 21:33:09 | INFO     | tts | synthesize took 1.89s
+2026-07-17 21:33:20 | INFO     | tts | play_audio took 10.76s
+2026-07-17 21:33:20 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 21:33:26 | INFO     | speech | Silence detected, stopping after 6.1s.
+2026-07-17 21:33:26 | INFO     | speech | Recording finished.
+2026-07-17 21:33:26 | INFO     | speech | record_audio took 6.86s
+2026-07-17 21:33:30 | INFO     | speech | Transcription: 'Okay, what's the weather with her?' (lang confidence: 1.00)
+2026-07-17 21:33:30 | INFO     | speech | transcribe took 3.35s
+2026-07-17 21:33:30 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'Okay, what's the weather with her?'
+2026-07-17 21:33:32 | INFO     | llm | Ollama response: 'I'm happy to help you, but I need to know who "her" is - are you referring to a specific person, like a friend or family member, or perhaps someone else entirely?'
+2026-07-17 21:33:32 | INFO     | llm | get_response took 2.55s
+2026-07-17 21:33:34 | INFO     | tts | synthesize took 1.81s
+2026-07-17 21:33:45 | INFO     | assistant | Assistant stopped via KeyboardInterrupt.
+2026-07-17 21:39:15 | INFO     | speech | Loading Whisper model 'tiny'...
+2026-07-17 21:39:16 | INFO     | speech | Whisper model loaded.
+2026-07-17 21:39:16 | INFO     | tts | Loading Piper voice from C:\AI-Assistant\voices\en_US-lessac-medium.onnx...
+2026-07-17 21:39:18 | INFO     | tts | Piper voice loaded.
+2026-07-17 21:39:19 | INFO     | assistant | Assistant initialized.
+2026-07-17 21:39:19 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 21:39:23 | INFO     | speech | Silence detected, stopping after 3.3s.
+2026-07-17 21:39:23 | INFO     | speech | Recording finished.
+2026-07-17 21:39:23 | INFO     | speech | record_audio took 4.00s
+2026-07-17 21:39:23 | INFO     | speech | Transcription: 'What is my two country?' (lang confidence: 1.00)
+2026-07-17 21:39:23 | INFO     | speech | transcribe took 0.60s
+2026-07-17 21:39:23 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'What is my two country?'
+2026-07-17 21:39:26 | INFO     | llm | Ollama response: 'Sorry I don't have any information about you having a two-country citizenship. Could you be thinking of your dual nationality? That's when you hold citizenship in more than one country, often due to birth or residency.'
+2026-07-17 21:39:26 | INFO     | llm | get_response took 2.70s
+2026-07-17 21:39:28 | INFO     | tts | synthesize took 1.70s
+2026-07-17 21:39:40 | INFO     | tts | play_audio took 12.36s
+2026-07-17 21:39:40 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 21:39:47 | INFO     | speech | Silence detected, stopping after 6.0s.
+2026-07-17 21:39:47 | INFO     | speech | Recording finished.
+2026-07-17 21:39:47 | INFO     | speech | record_audio took 6.96s
+2026-07-17 21:39:48 | INFO     | speech | Transcription: 'What is 66 plus 78?' (lang confidence: 1.00)
+2026-07-17 21:39:48 | INFO     | speech | transcribe took 0.73s
+2026-07-17 21:39:48 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'What is 66 plus 78?'
+2026-07-17 21:39:49 | INFO     | llm | Ollama response: 'That's easy! Sixty-six plus seventy-eight equals one hundred forty-four.'
+2026-07-17 21:39:49 | INFO     | llm | get_response took 1.46s
+2026-07-17 21:39:50 | INFO     | tts | synthesize took 0.84s
+2026-07-17 21:39:55 | INFO     | tts | play_audio took 4.84s
+2026-07-17 21:39:55 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 21:39:58 | INFO     | speech | Silence detected, stopping after 2.8s.
+2026-07-17 21:39:58 | INFO     | speech | Recording finished.
+2026-07-17 21:39:58 | INFO     | speech | record_audio took 3.37s
+2026-07-17 21:39:59 | INFO     | speech | Transcription: 'Good bye.' (lang confidence: 1.00)
+2026-07-17 21:39:59 | INFO     | speech | transcribe took 0.80s
+2026-07-17 21:40:00 | INFO     | tts | synthesize took 0.47s
+2026-07-17 21:40:02 | INFO     | tts | play_audio took 2.75s
+2026-07-17 21:40:02 | INFO     | assistant | Assistant stopped via exit phrase.
+2026-07-17 21:42:51 | INFO     | speech | Loading Whisper model 'tiny'...
+2026-07-17 21:42:52 | INFO     | speech | Whisper model loaded.
+2026-07-17 21:42:53 | INFO     | tts | Loading Piper voice from C:\AI-Assistant\voices\en_US-lessac-medium.onnx...
+2026-07-17 21:42:54 | INFO     | tts | Piper voice loaded.
+2026-07-17 21:42:55 | INFO     | assistant | Assistant initialized.
+2026-07-17 21:42:55 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 21:43:01 | INFO     | speech | Silence detected, stopping after 5.5s.
+2026-07-17 21:43:01 | INFO     | speech | Recording finished.
+2026-07-17 21:43:01 | INFO     | speech | record_audio took 6.01s
+2026-07-17 21:43:01 | INFO     | speech | Transcription: 'What is my 2conryer?' (lang confidence: 1.00)
+2026-07-17 21:43:01 | INFO     | speech | transcribe took 0.65s
+2026-07-17 21:43:01 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'What is my 2conryer?'
+2026-07-17 21:43:04 | INFO     | llm | Ollama response: 'I think you might be thinking of "your core," but I'm not sure what you'd refer to as that in a computer! It's possible you meant the CPU, or central processing unit, which is the brain of your computer.'
+2026-07-17 21:43:04 | INFO     | llm | get_response took 3.03s
+2026-07-17 21:43:06 | ERROR    | tts | TTS failed: # channels not specified
+2026-07-17 21:43:06 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 21:43:12 | INFO     | speech | Silence detected, stopping after 5.7s.
+2026-07-17 21:43:12 | INFO     | speech | Recording finished.
+2026-07-17 21:43:12 | INFO     | speech | record_audio took 6.41s
+2026-07-17 21:43:13 | INFO     | speech | Transcription: 'What is my to-countryer?' (lang confidence: 1.00)
+2026-07-17 21:43:13 | INFO     | speech | transcribe took 0.59s
+2026-07-17 21:43:13 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'What is my to-countryer?'
+2026-07-17 21:43:15 | INFO     | llm | Ollama response: 'I couldn't find any information on someone with that name. Could you please provide more context or details about who your "to-countryer" is? That way, I can try to help you better.'
+2026-07-17 21:43:15 | INFO     | llm | get_response took 2.35s
+2026-07-17 21:43:17 | INFO     | tts | synthesize took 1.72s
+2026-07-17 21:43:27 | INFO     | tts | play_audio took 10.46s
+2026-07-17 21:43:27 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 21:43:33 | INFO     | speech | Silence detected, stopping after 5.1s.
+2026-07-17 21:43:33 | INFO     | speech | Recording finished.
+2026-07-17 21:43:33 | INFO     | speech | record_audio took 5.99s
+2026-07-17 21:43:34 | INFO     | speech | Transcription: 'What is mitochondria?' (lang confidence: 1.00)
+2026-07-17 21:43:34 | INFO     | speech | transcribe took 0.60s
+2026-07-17 21:43:34 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'What is mitochondria?'
+2026-07-17 21:43:36 | INFO     | llm | Ollama response: 'Mitochondria are tiny powerhouses inside our cells that generate energy for the body through a process called cellular respiration. They're basically the batteries that keep our cells running smoothly!'
+2026-07-17 21:43:36 | INFO     | llm | get_response took 1.93s
+2026-07-17 21:43:38 | INFO     | tts | synthesize took 1.79s
+2026-07-17 21:43:49 | INFO     | tts | play_audio took 11.92s
+2026-07-17 21:43:49 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 21:43:52 | INFO     | speech | Silence detected, stopping after 2.4s.
+2026-07-17 21:43:53 | INFO     | speech | Recording finished.
+2026-07-17 21:43:53 | INFO     | speech | record_audio took 3.04s
+2026-07-17 21:43:53 | INFO     | speech | Transcription: 'Bye-bye!' (lang confidence: 1.00)
+2026-07-17 21:43:53 | INFO     | speech | transcribe took 0.55s
+2026-07-17 21:43:53 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'Bye-bye!'
+2026-07-17 21:43:55 | INFO     | llm | Ollama response: 'It was nice chatting with you. I'll be here when you're ready to talk again!'
+2026-07-17 21:43:55 | INFO     | llm | get_response took 1.47s
+2026-07-17 21:43:56 | INFO     | tts | synthesize took 1.31s
+2026-07-17 21:44:00 | INFO     | tts | play_audio took 4.55s
+2026-07-17 21:44:00 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 21:44:05 | INFO     | speech | Silence detected, stopping after 4.0s.
+2026-07-17 21:44:05 | INFO     | speech | Recording finished.
+2026-07-17 21:44:05 | INFO     | speech | record_audio took 4.99s
+2026-07-17 21:44:06 | INFO     | speech | Transcription: 'Bye.' (lang confidence: 1.00)
+2026-07-17 21:44:06 | INFO     | speech | transcribe took 0.68s
+2026-07-17 21:44:07 | INFO     | tts | synthesize took 0.43s
+2026-07-17 21:44:09 | INFO     | tts | play_audio took 2.69s
+2026-07-17 21:44:09 | INFO     | assistant | Assistant stopped via exit phrase.
+2026-07-17 21:53:47 | INFO     | speech | Loading Whisper model 'tiny'...
+2026-07-17 21:53:49 | INFO     | speech | Whisper model loaded.
+2026-07-17 21:53:50 | INFO     | tts | Loading Piper voice from C:\AI-Assistant\voices\en_US-lessac-medium.onnx...
+2026-07-17 21:53:52 | INFO     | tts | Piper voice loaded.
+2026-07-17 21:53:53 | INFO     | assistant | Assistant initialized.
+2026-07-17 21:53:53 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 21:53:59 | INFO     | speech | Silence detected, stopping after 5.1s.
+2026-07-17 21:53:59 | INFO     | speech | Recording finished.
+2026-07-17 21:53:59 | INFO     | speech | record_audio took 5.78s
+2026-07-17 21:53:59 | INFO     | speech | Transcription: 'What is the capital of Australia?' (lang confidence: 1.00)
+2026-07-17 21:53:59 | INFO     | speech | transcribe took 0.51s
+2026-07-17 21:53:59 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'What is the capital of Australia?'
+2026-07-17 21:54:01 | INFO     | llm | Ollama response: 'That's an easy one! The capital of Australia is Canberra.'
+2026-07-17 21:54:01 | INFO     | llm | get_response took 1.82s
+2026-07-17 21:54:01 | INFO     | tts | synthesize took 0.38s
+2026-07-17 21:54:05 | INFO     | tts | play_audio took 3.97s
+2026-07-17 21:54:05 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 21:54:11 | INFO     | speech | Silence detected, stopping after 4.8s.
+2026-07-17 21:54:11 | INFO     | speech | Recording finished.
+2026-07-17 21:54:11 | INFO     | speech | record_audio took 6.05s
+2026-07-17 21:54:12 | WARNING  | speech | Transcription returned empty text.
+2026-07-17 21:54:12 | INFO     | speech | transcribe took 0.58s
+2026-07-17 21:54:12 | INFO     | fallback | No speech detected, using fallback phrase.
+2026-07-17 21:54:12 | INFO     | tts | synthesize took 0.23s
+2026-07-17 21:54:16 | INFO     | tts | play_audio took 3.84s
+2026-07-17 21:54:16 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 21:54:20 | INFO     | speech | Silence detected, stopping after 3.3s.
+2026-07-17 21:54:21 | INFO     | speech | Recording finished.
+2026-07-17 21:54:21 | INFO     | speech | record_audio took 4.36s
+2026-07-17 21:54:21 | INFO     | speech | Transcription: 'What is the capital of India?' (lang confidence: 1.00)
+2026-07-17 21:54:21 | INFO     | speech | transcribe took 0.43s
+2026-07-17 21:54:21 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'What is the capital of India?'
+2026-07-17 21:54:23 | INFO     | llm | Ollama response: 'That would be New Delhi, by the way. It's also home to many historic landmarks like the Red Fort and India Gate.'
+2026-07-17 21:54:23 | INFO     | llm | get_response took 1.58s
+2026-07-17 21:54:23 | INFO     | tts | synthesize took 0.43s
+2026-07-17 21:54:30 | INFO     | tts | play_audio took 7.13s
+2026-07-17 21:54:30 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 21:54:36 | INFO     | speech | Silence detected, stopping after 4.9s.
+2026-07-17 21:54:36 | INFO     | speech | Recording finished.
+2026-07-17 21:54:36 | INFO     | speech | record_audio took 5.70s
+2026-07-17 21:54:36 | INFO     | speech | Transcription: 'Who invented a telescope?' (lang confidence: 1.00)
+2026-07-17 21:54:36 | INFO     | speech | transcribe took 0.39s
+2026-07-17 21:54:36 | INFO     | llm | Sending to Ollama (llama3.2:3b): 'Who invented a telescope?'
+2026-07-17 21:54:39 | INFO     | llm | Ollama response: 'The invention of the first practical telescope is often credited to Hans Lippershey, a Dutch spectacle maker, in 1608. However, Galileo Galilei improved upon this design and made some significant contributions to our understanding of the universe using his own telescope around 1610.'
+2026-07-17 21:54:39 | INFO     | llm | get_response took 2.59s
+2026-07-17 21:54:40 | INFO     | tts | synthesize took 1.05s
+2026-07-17 21:54:59 | INFO     | tts | play_audio took 19.20s
+2026-07-17 21:54:59 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 21:55:04 | INFO     | speech | Silence detected, stopping after 3.7s.
+2026-07-17 21:55:04 | INFO     | speech | Recording finished.
+2026-07-17 21:55:04 | INFO     | speech | record_audio took 4.86s
+2026-07-17 21:55:04 | INFO     | speech | Transcription: 'Bye.' (lang confidence: 1.00)
+2026-07-17 21:55:04 | INFO     | speech | transcribe took 0.39s
+2026-07-17 21:55:04 | INFO     | tts | synthesize took 0.14s
+2026-07-17 21:55:07 | INFO     | tts | play_audio took 2.62s
+2026-07-17 21:55:07 | INFO     | assistant | Assistant stopped via exit phrase.
+2026-07-17 22:43:26 | INFO     | speech | Loading Whisper model 'tiny'...
+2026-07-17 22:43:27 | INFO     | speech | Whisper model loaded.
+2026-07-17 22:43:27 | INFO     | tts | Loading Piper voice from C:\AI-Assistant\voices\en_US-lessac-medium.onnx...
+2026-07-17 22:43:29 | INFO     | tts | Piper voice loaded.
+2026-07-17 22:43:29 | INFO     | assistant | Assistant initialized.
+2026-07-17 22:43:29 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 22:43:35 | INFO     | speech | Silence detected, stopping after 4.2s.
+2026-07-17 22:43:35 | INFO     | speech | Recording finished.
+2026-07-17 22:43:35 | INFO     | speech | record_audio took 6.07s
+2026-07-17 22:43:36 | WARNING  | speech | Transcription returned empty text.
+2026-07-17 22:43:36 | INFO     | speech | transcribe took 0.31s
+2026-07-17 22:43:36 | INFO     | fallback | No speech detected, using fallback phrase.
+2026-07-17 22:43:38 | INFO     | tts | synthesize took 2.45s
+2026-07-17 22:43:42 | INFO     | tts | play_audio took 3.84s
+2026-07-17 22:43:42 | INFO     | speech | Listening... speak now (will stop automatically when you pause).
+2026-07-17 22:43:45 | INFO     | assistant | Assistant stopped via KeyboardInterrupt.
